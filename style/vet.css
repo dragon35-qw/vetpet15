@@ -1,0 +1,361 @@
+/* Paw Care */
+/* 2272029 - Josephine Alvina Luwia */
+/* 2272041 - Rafael Cavin Emmanuel Tuasuun */
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(../img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+/*************************************/
+/* General */
+/*************************************/
+
+.fontcolor {
+   color: #161a66;
+}
+
+.fontstyle {
+   font-family: 'Work Sans', sans-serif;
+}
+
+/*************************************/
+/* Navigation */
+/*************************************/
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+/*************************************/
+/* Doctors */
+/*************************************/
+
+#rc {
+   object-fit: cover;
+   object-position: top;
+   height: 400px;
+   width: 100%;
+}
+
+#josephine {
+   object-fit: cover;
+   object-position: top;
+   height: 400px;
+   width: 100%;
+}
+
+/* Tulisan */
+.meet {
+   color: #161a66;
+   font-size: 10rem;
+   font-weight: 600;
+}
+
+.guarantee {
+   font-size: 1.3rem;
+}
+
+.vet-name {
+   font-size: 60px;
+}
+
+.vet-description {
+   font-size: 16px;
+   text-indent: 2rem;
+   text-align: justify;
+}
+
+/* size */
+#doctors {
+   height: calc(100vh - 98px);
+}
+
+#doctors-card {
+   width: 18rem;
+   background-color: #161a66;
+}
+
+#josephine {
+   object-fit: cover;
+   object-position: top;
+   height: 20rem;
+   width: 100%;
+}
+
+#josephine-add {
+   color: white;
+}
+
+#josephine-card {
+   width: 18rem;
+   background-color: #161a66;
+   margin-bottom: 20px;
+}
+
+/* logo  */
+#vertarinarian {
+   width: 200px;
+   padding-top: 100px;
+}
+
+/* button */
+.btn-doc {
+   color: #161a66;
+   background-color: white;
+}
+
+.btn-doc:hover {
+   background-color: #161a66;
+   color: white;
+   border-color: white;
+}
+
+/*************************************/
+/*  Footer  */
+/*************************************/
+#footer {
+   background-color: #161a66;
+   height: 27px;
+}
+
+/*************************************/
+/* Media Query */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media (min-width: 1410px) {
+   .vet-name {
+      font-size: 71px;
+   }
+
+   .vet-description {
+      font-size: 20px;
+   }
+
+   #vet-button {
+      height: 50px;
+      font-size: 20px;
+   }
+
+   #josephine {
+      height: 350px;
+   }
+}
+
+/* Laptop */
+@media (min-width: 1024px) and (max-width: 1025px) {
+   .vet-name {
+      font-size: 50px;
+   }
+
+   .vet-description {
+      font-size: 15px;
+   }
+
+   #vet-button {
+      height: 30px;
+      font-size: 10px;
+   }
+
+   #josephine {
+      height: 270px;
+   }
+
+   #josephine-add {
+      font-size: 17px;
+   }
+
+   #josephine-card {
+      width: 15rem;
+      height: 25rem;
+   }
+}
+
+/* 768px (Tablet) */
+@media (max-width: 992px) {
+   .vet-name {
+      font-size: 30px;
+   }
+
+   .vet-description {
+      font-size: 12px;
+   }
+
+   #vet-button {
+      height: 40px;
+      font-size: 10px;
+   }
+
+   #josephine {
+      height: 180px;
+   }
+
+   #josephine-add {
+      font-size: 10px;
+   }
+
+   #josephine-card {
+      width: 10rem;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   #doctors {
+      height: auto;
+      padding-top: 40px;
+   }
+}
+
+/* 425px 375px 320px (Mobile) */
+@media (max-width: 426px) {
+   #doctors {
+      height: auto;
+      padding-top: 40px;
+   }
+   .vet-name {
+      font-size: 30px;
+   }
+
+   .vet-description {
+      font-size: 12px;
+   }
+
+   #vet-button {
+      height: 40px;
+      font-size: 10px;
+   }
+
+   #josephine {
+      height: 180px;
+   }
+
+   #josephine-add {
+      font-size: 10px;
+   }
+
+   #josephine-card {
+      width: 10rem;
+      height: 20rem;
+   }
+}
+/*************************************/
+/*  Query Vet 2  */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media (min-width: 1410px) {
+   .vet-name {
+      font-size: 71px;
+   }
+
+   .vet-description {
+      font-size: 20px;
+   }
+
+   #vet-button {
+      height: 50px;
+      font-size: 20px;
+   }
+
+   #josephine {
+      object-fit: cover;
+      object-position: top;
+      height: 400px;
+      width: 100%;
+   }
+
+   .card {
+      margin-top: -1rem;
+      height: 35rem;
+   }
+}
+
+/* 768px (Tablet) */
+@media (max-width: 992px) {
+   .vet-name {
+      font-size: 30px;
+   }
+
+   .vet-description {
+      font-size: 12px;
+   }
+
+   #vet-button {
+      height: 40px;
+      font-size: 10px;
+   }
+
+   #josephine {
+      height: 180px;
+   }
+
+   #josephine-add {
+      font-size: 10px;
+   }
+
+   #josephine-card {
+      width: 10rem;
+   }
+}
+
+/* 425px 375px 320px (Mobile) */
+@media (max-width: 426px) {
+   #doctors {
+      height: auto;
+      padding-top: 40px;
+   }
+   .vet-name {
+      font-size: 30px;
+   }
+
+   .vet-description {
+      font-size: 12px;
+   }
+
+   #vet-button {
+      height: 40px;
+      font-size: 10px;
+   }
+
+   #josephine {
+      height: 180px;
+   }
+
+   #josephine-add {
+      font-size: 10px;
+   }
+
+   #josephine-card {
+      width: 10rem;
+      height: 20rem;
+   }
+}
+
+/*desktop default */
+@media screen and (min-width: 1366px) {
+   #josephine {
+      object-fit: cover;
+      object-position: top;
+      height: 352px;
+      width: 100%;
+   }
+
+   .card {
+      margin-top: -1rem;
+      height: 30rem;
+   }
+
+   .card-title {
+      margin-bottom: -0.6rem;
+      font-size: 1.1rem;
+   }
+}

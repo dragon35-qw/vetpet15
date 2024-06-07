@@ -1,0 +1,89 @@
+/* Paw Care */
+/* 2272029 - Josephine Alvina Luwia */
+/* 2272041 - Rafael Cavin Emmanuel Tuasuun */
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   background: url(../img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+/*************************************/
+/* General */
+/*************************************/
+
+.fontcolor {
+   color: #161a66;
+}
+
+.fontstyle {
+   font-family: 'Work Sans', sans-serif;
+}
+
+/*************************************/
+/* Navigation */
+/*************************************/
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+/*************************************/
+/* Article */
+/*************************************/
+.title-article {
+   font-weight: 600;
+   text-transform: capitalize;
+}
+
+/*************************************/
+/* Footer */
+/*************************************/
+.footer {
+   background-color: #161a66;
+   height: 27px;
+}
+
+/*************************************/
+/* Media Query */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media only screen and (min-width: 1366px) {
+   .title-article {
+      font-size: 3rem;
+   }
+   .article {
+      font-size: 1.5rem;
+   }
+}
+
+/* 768px (Tablet) */
+@media only screen and (max-width: 992px) {
+   .img-article {
+      width: 20rem;
+   }
+}
+
+/* 425px 375px 320px (Mobile) */
+@media only screen and (max-width: 426px) {
+   .title-article {
+      font-size: 1.5rem;
+   }
+   .article {
+      font-size: 0.8rem;
+   }
+}
+
+/* 375px 320px (Mobile img) */
+@media only screen and (max-width: 380px) {
+   .img-article {
+      width: 15rem;
+   }
+}

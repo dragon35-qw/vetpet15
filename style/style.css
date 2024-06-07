@@ -1,0 +1,331 @@
+/* Paw Care */
+/* 2272029 - Josephine Alvina Luwia */
+/* 2272041 - Rafael Cavin Emmanuel Tuasuun */
+* {
+   margin: 0;
+   padding: 0;
+   scroll-behavior: smooth;
+   box-sizing: border-box;
+}
+
+body {
+   background-image: url(../img/background.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+/*************************************/
+/* General */
+/*************************************/
+
+.fontcolor {
+   color: #161a66;
+}
+
+.fontstyle {
+   font-family: 'Work Sans', sans-serif;
+}
+
+.hide {
+   overflow: hidden;
+}
+/*************************************/
+/* Navigation */
+/*************************************/
+
+nav ul li:not(:last-child) {
+   margin-right: 50px;
+}
+
+/*************************************/
+/* Home */
+/*************************************/
+
+#home {
+   height: auto;
+   min-height: calc(100vh - 70px);
+   padding-top: 35px;
+}
+
+#dog {
+   width: 100%;
+   max-width: 300px;
+   border-radius: 70px;
+   height: auto;
+}
+
+/* Button */
+#vet {
+   background-color: #161a66;
+   color: white;
+   font-size: 20px;
+   padding: 16px 12px;
+   transition: all 0.5s;
+}
+
+#vet:hover {
+   transform: translateY(-3px);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   background-color: #ffffff44;
+   color: #161a66;
+}
+
+#vet:active {
+   transform: translateY(-3px);
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title-home {
+   font-size: 60px;
+   font-weight: 500;
+}
+
+.subtitle-home {
+   font-size: 20px;
+}
+
+/*************************************/
+/* About Us */
+/*************************************/
+
+#about {
+   background-color: #d9d9d9;
+   margin: 0 0 100px 0;
+}
+
+#us {
+   color: white;
+}
+
+#us-background {
+   background-color: #161a66;
+}
+
+#us-text {
+   font-size: 16px;
+}
+
+/*************************************/
+/* Offer */
+/*************************************/
+
+#offer {
+   font-weight: 700;
+   font-size: 50px;
+}
+
+#cat {
+   max-width: 300px;
+}
+
+#icon {
+   width: 50px;
+}
+
+/*************************************/
+/*  Articles  */
+/*************************************/
+
+#articles {
+   background-color: #d9d9d9;
+}
+
+#learn {
+   font-weight: 700;
+}
+
+#color {
+   border: 2px solid #161a66;
+}
+
+#articles3-title {
+   font-size: 18px;
+   font-weight: 500;
+}
+
+.texttransform {
+   text-transform: capitalize;
+}
+
+.articles-img {
+   width: 18rem;
+}
+
+/*************************************/
+/*  Footer  */
+/*************************************/
+#footer {
+   background-color: #161a66;
+}
+
+#logo {
+   width: 200px;
+   background-color: white;
+   border-radius: 20%;
+   padding-bottom: 0px;
+}
+
+#logo-position {
+   padding-bottom: 0px;
+}
+
+.footer-fontcolor {
+   color: white;
+}
+
+/*************************************/
+/*  Media Query  */
+/*************************************/
+
+/* 1440px (Laptop L) */
+@media only screen and (min-width: 1366px) {
+   /* home */
+   .title-home {
+      font-size: 70px;
+   }
+
+   .subtitle-home {
+      font-size: 23px;
+   }
+
+   .home-position {
+      position: relative;
+      top: 50%;
+      transform: translateY(50%);
+   }
+
+   #dog {
+      max-width: 300px;
+   }
+}
+
+/* 768px (Tablet) */
+@media only screen and (max-width: 993px) {
+   /* home */
+   .title-home {
+      font-size: 40px;
+   }
+
+   .subtitle-home {
+      font-size: 15px;
+   }
+
+   #dog {
+      max-width: 500px;
+      border-radius: 30px;
+   }
+
+   #vet {
+      font-size: 12px;
+   }
+
+   /* offer */
+   #offer {
+      font-weight: 700;
+      font-size: 40px;
+   }
+
+   #cat {
+      max-width: 200px;
+   }
+
+   #icon {
+      width: 35px;
+   }
+
+   .offer-title {
+      font-size: 1.5rem;
+   }
+
+   .offer-text {
+      font-size: 13px;
+   }
+
+   /* articles */
+   .articles-img {
+      width: 15rem;
+   }
+
+   /* footer */
+   #logo {
+      max-width: 130px;
+   }
+}
+
+/* 768px (Tablet) */
+@media only screen and (max-width: 800px) {
+   /* home */
+   #dog {
+      max-width: 300px;
+      border-radius: 30px;
+   }
+   /* articles */
+   .articles-img {
+      width: 13rem;
+   }
+
+   #articles3-title {
+      font-size: 16px;
+   }
+
+   #articles3-text {
+      font-size: 14.5px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   .title-home {
+      font-size: 30px;
+   }
+   .subtitle-home {
+      font-size: 12px;
+   }
+   #dog {
+      max-width: 150px;
+   }
+   #vet {
+      font-size: 12px;
+      padding: 10px 0px;
+   }
+}
+
+/* 425px 375px 320px (Mobile) */
+@media only screen and (max-width: 426px) {
+   /* home */
+   .title-home {
+      font-size: 35px;
+   }
+
+   .subtitle-home {
+      font-size: 12px;
+   }
+
+   #dog {
+      max-width: 170px;
+   }
+
+   #vet {
+      font-size: 10px;
+      padding: 10px 8px;
+   }
+
+   /* about us */
+   #us-text {
+      font-size: 12px;
+   }
+
+   /* offer */
+   #offer {
+      font-size: 30px;
+   }
+
+   /* footer */
+   #logo {
+      max-width: 100px;
+   }
+
+   #logo-position {
+      padding-bottom: 50px;
+   }
+}

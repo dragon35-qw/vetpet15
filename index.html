@@ -1,0 +1,268 @@
+<!-- Paw Care -->
+<!-- 2272029 - Josephine Alvina luwia -->
+<!-- 2272041 - Rafael Cavin Emmanuel Tuasuun -->
+<!doctype html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name='dmca-site-verification' content='S1djLzFzMFgzSjVnaFY2UWh1Yno5WXpYV05PUVpRYzdTZlJEcjBDU0pacz01' />
+   <!-- Icon -->
+   <link rel="icon" href="img/logo.png">
+   <!-- https://www.freepik.com/ -->
+   <!-- Font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet">
+   <!-- https://fonts.google.com-->
+   <!-- AOS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+   <!-- CSS -->
+   <link rel="stylesheet" href="style/style.css">
+   <title>Paw Care</title>
+</head>
+
+<body>
+   <!-- ------------------------------ -->
+   <!-- Navigation -->
+   <!-- ------------------------------ -->
+   <nav class="navbar navbar-expand-lg d-flex justify-content-center sticky-top bg-light">
+      <div class="container">
+         <a class="navbar-brand" href="#home">
+            <img src="img/logo2.png" alt="logo" width="200">
+         </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ps-3 fs-5 ms-auto">
+               <li class="nav-item">
+                  <a class="nav-link fontcolor" aria-current="page" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link  fontcolor" href="doctors.html">Doctors</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link fontcolor " href="contact.html">Contact Us</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <!-- ------------------------------ -->
+   <!-- Home -->
+   <!-- ------------------------------ -->
+   <section class="d-flex align-items-center" id="home">
+      <div class="container">
+         <div class="row d-flex justify-content-center">
+            <div class="col-md-1 home-position"></div>
+            <div class="col-md-6 fontstyle">
+               <h1 class="title-home fontcolor">Vetpet Veteriner Kliniği</h1><br>
+               <p class="subtitle-home">Evcil hayvanınız için en iyi tedaviyi ve olanakları sağlıyoruz. 
+               </p>
+               <button onclick="parent.location='appointment.html'" id="vet"
+                  class="btn border mb-5 rounded-5 mt-3 w-50 ">İletişim</button>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center mb-5">
+               <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active d-flex justify-content-center">
+                        <img src="img/dog3.jpeg" class="d-block w-100" alt="dog" id="dog">
+                        <!-- https://id.pinterest.com/ -->
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/cat2.jpeg" class="d-block w-100" alt="cat" id="dog">
+                        <!-- https://id.pinterest.com/ -->
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/dog2.jpeg" class="d-block w-100" alt="dog" id="dog">
+                        <!-- https://id.pinterest.com/ -->
+                     </div>
+                     <div class="carousel-item d-flex justify-content-center">
+                        <img src="img/cat3.jpeg" class="d-block w-100" alt="dog" id="dog">
+                        <!-- https://id.pinterest.com/ -->
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-1"></div>
+         </div>
+      </div>
+   </section>
+   <!-- ------------------------------ -->
+   <!-- About US -->
+   <!-- ------------------------------ -->
+   <section class="p-5 fontstyle" id="about">
+      <div class="container">
+         <div data-aos="zoom-in">
+            <div class="row d-flex justify-content-center" id="us">
+               <div class="col-md-9 text-center py-4   border rounded-4" id="us-background">
+                  <h1 class="pb-4">Hakkımızda</h1>
+                  <p id="us-text">Kliniğimiz yetkili ve deneyimli bir veteriner hekimi olan Ramazan Epbaygün tarafından kontrol edilmektedir. Grubumuz, müşterilerimizin evcil hayvanlarını sağlığına kavuşturmaya odaklanmıştır.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ------------------------------ -->
+   <!-- Offer -->
+   <!-- ------------------------------ -->
+   <section>
+      <div class="container fontstyle fontcolor">
+         <div class="hide">
+            <div data-aos="zoom-out">
+               <h1 id="offer">HİZMETLERİMİZ</h1>
+            </div>
+         </div>
+         <div class=" row d-flex justify-content-center py-5 my-5">
+            <div class="col-md-4 text-end">
+               <div data-aos="fade-right">
+                  <br>
+                  <h2 class="offer-title">Aşılama Programı&nbsp;<img src="img/Vaccine.png" alt="vaccine" id="icon">
+                     <!-- https://id.pinterest.com/ -->
+                     </h1>
+                     <p class="offer-text">Aşıların hayvanlara uygulanması, hayvanın bağışıklık sistemine yardımcı olmak ve hastalıklara karşı korumak için fazlasıyla faydalıdır.</p>
+                     <br>
+                     <h2 class="offer-title">Radiology &nbsp;<img src="img/Radiology.png" alt="radiology" id="icon">
+                        <!-- https://id.pinterest.com/ -->
+                     </h2>
+                     <p class="offer-text">Aims to determine the patient's health condition through radiology technology
+                        whose results will
+                        determine the diagnosis and treatment</p>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex align-items-center justify-content-center">
+               <div class="hide">
+                  <div data-aos="zoom-in-up">
+                     <img src="img/Bat_Harness_Costume_for_Cats-removebg-preview.png" alt="batman cat" id="cat">
+                     <!-- https://id.pinterest.com/ -->
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 fontstyle fontcolor">
+               <div class="hide">
+                  <div data-aos="fade-left">
+                     <br>
+                     <h2 class="offer-title">Hijyen&nbsp;<img src="img/Hygiene.png" alt="hygiene" id="icon">
+                        <!-- https://id.pinterest.com/ -->
+                        </h1>
+                        <p class="offer-text">Evcil hayvanınızın temizliğine dikkat ediyoruz. Böylece hastalığa neden olan mikroplardan da korumuş oluyoruz</p>
+                        <br>
+                        <h2 class="offer-title">Tehşis <img src="img/Medicine.png" alt="medicine" id="icon"></h2>
+                        <!-- https://id.pinterest.com/ -->
+                        <p class="offer-text">hayvanınıza tehşisi koyduktan sonra en iyi şekilde tedaviye başlıyoruz.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- ------------------------------ -->
+   <!-- Articles   -->
+   <!-- ------------------------------ -->
+   <section id="articles" class="fontstyle">
+      <h1 class="text-center fontcolor pt-5" id="learn">DAHA FAZLA</h1>
+      <hr id="color">
+      <!-- Card -->
+      <div class="container py-5 d-flex justify-content-center">
+         <div class="row">
+            <div class="col-md-4 d-flex pb-3 justify-content-center">
+               <div data-aos="flip-left">
+                  <div class="card articles-img">
+                     <img src="img/articles 1.jpg" alt="articles2" class="card-img-top">
+                     <!-- https://id.pinterest.com/ -->
+                     <div class="card-body">
+                        <h5 class=" py-2 texttransform card-title">How to keep your pet clean</h5>
+                        <p class="pb-1 card-text">As owners, we must pay attention to the cleanliness of
+                           our pets, not
+                           only
+                           their bodies but also the environment</p>
+                        <a href="articles1.html" class="btn btn-primary">See More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex pb-3 justify-content-center">
+               <div data-aos="flip-left">
+                  <div class="card articles-img">
+                     <img src="img/articles 2.jpg" alt="articles2" class="card-img-top">
+                     <!-- https://id.pinterest.com/ -->
+                     <div class="card-body">
+                        <h5 class=" py-2 texttransform ">The right nutritious food for your pet</h5>
+                        <p class=" pb-1 card-text">Just like humans, without any nutrients in their
+                           bodies will weaken
+                           their health and growth defenses</p>
+                        <a href="articles2.html" class="btn btn-primary">See More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-4 d-flex pb-3 justify-content-center">
+               <div data-aos="flip-left">
+                  <div class="card articles-img">
+                     <img src="img/articles 3.jpg" alt="articles3" class="card-img-top">
+                     <!-- https://id.pinterest.com/ -->
+                     <div class="card-body">
+                        <h5 class="py-2 texttransform card-title" id="articles3-title">How to make pets feel safe and
+                           comfortable at home</h5>
+                        <p class="pb-2 card-text" id="articles3-text">House is a place to live for our pets, so we have
+                           to make them feel
+                           comfortable and safe as the function of the house itself</p>
+                        <a href="articles3.html" class="btn btn-primary">See More</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+   </section>
+
+   <!-- ------------------------------ -->
+   <!-- Footer   -->
+   <!-- ------------------------------ -->
+   <footer class="h-100" id="footer">
+      <div class="container">
+         <div class="row d-flex justify-content-center py-5 footer-fontcolor fontstyle">
+            <div class="col-md-4 d-flex align-items-center justify-content-center" id="logo-position">
+               <img class="mx-5" src="img/logo1.png" alt="logo" id="logo">
+            </div>
+            <div class="col-md-4 pb-5">
+               <h3>Çalışma Saatleri</h4><br>
+                  <p>Paz - Cmt: 08:30 - 19:30</p>
+            </div>
+            <div class="col-md-4">
+               <h3>Bize Ulaşın</h3><br>
+               <p><i class="ph-map-pin-fill"></i> Özgür, Hızır İlyas Cd. no: 9/A, Merkez/Burdur</p>
+               <p><i class="ph-envelope-fill"></i>&nbsp; vetpet15@hotmail.com</p>
+               <p><i class="ph-phone-incoming-fill">
+                  </i>&nbsp; +90 532 721 01 76</p>
+            </div>
+            <div class="col-md-10 py-3">
+               <p>Copyright ©2024 Onur Epbaygun</p>
+            </div>
+         </div>
+      </div>
+
+   </footer>
+
+   <!-- AOS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+   <!-- Icon https://phosphoricons.com/ -->
+   <script src="https://unpkg.com/phosphor-icons"></script>
+   <!-- Bootstrap js -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

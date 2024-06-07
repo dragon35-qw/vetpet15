@@ -1,0 +1,445 @@
+/* Paw Care */
+/* 2272029 - Josephine Alvina Luwia */
+/* 2272041 - Rafael Cavin Emmanuel Tuasuun */
+@media screen and (min-width: 320px){
+    .judul {
+        font-size: 2rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        color: #161a66;
+        margin-bottom: 2rem
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 2rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 32rem;
+    }
+}
+
+@media screen and (min-width: 375px){
+    .judul {
+        font-size: 2.3rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        color: #161a66;
+        margin-bottom: 2rem
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 2rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 32rem;
+    }
+
+}
+
+@media screen and (min-width: 425px){
+    .judul {
+        font-size: 2.6rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        color: #161a66;
+        margin-bottom: 2rem
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 2rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .judul {
+        font-size: 2.6rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        color: #161a66;
+        margin-bottom: 2rem;
+        width: 200px;
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 2rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 31.5rem;
+    }
+}
+
+@media screen and (min-width: 614px){
+    .message {
+        height: 33.5rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .judul {
+        font-size: 3rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 18rem;
+        color: #161a66;
+        margin-bottom: 2rem;
+    }
+
+    .phonenumber h2, .emailaddress h2, .insta h2, .location h2{
+        font-size: 1.3rem;
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: .5rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 28.25rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .judul {
+        font-size: 3.6rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 24rem;
+        color: #161a66;
+        margin-bottom: 2rem;
+    }
+
+    .phonenumber h2, .emailaddress h2, .insta h2, .location h2{
+        font-size: 1.3rem;
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: .5rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 28.25rem;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .judul {
+        font-size: 3.6rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 27rem;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 6.4rem;
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 75px;
+        height: 75px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 3rem;
+        border-color: white;
+    }
+    
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 31.6rem;
+    }
+    
+}
+
+@media screen and (min-width: 1440px){
+    .judul {
+        font-size: 3.6rem;
+        color: #161a66;
+    }
+
+    .phonenumber, .emailaddress, .insta, .location{
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 30rem;
+        color: #161a66;
+        margin-bottom: 2rem;
+    }
+
+    .phonenumber h2, .emailaddress h2, .insta h2, .location h2{
+        font-size: 1.9rem;
+    }
+    .phonenumber small, .emailaddress small, .insta small, .location small{
+        font-size: 1.2rem;
+    }
+
+    .phoneimg, .emailimg, .instaimg, .locationimg {
+        float: left;
+        margin-right: 2rem;
+        width: 40px;
+        height: 40px;
+    }
+
+    .message button {
+        background-color: #161a66;
+        font-size: 1.2rem;
+        width: 100%;
+        height: 3rem;
+        color: white;
+        border-radius: 6px;
+        margin-top: 3rem;
+        border-color: white;
+    }
+
+    .message {
+        background-color: white;
+        box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -webkit-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        -moz-box-shadow: 8px 6px 10px -2px rgba(0,0,0,0.25);
+        padding: 1rem;
+        width: 100%;
+        color: #161a66;
+        margin-bottom: 2rem;
+        height: 31.5rem;
+    }
+}
+
+.form-control {
+    width: 2rem;
+}
+
+.typemessage {
+    height: 6rem;
+}
+
+.maps {
+    background-color: white;
+    box-shadow: 7px 3px 28px 4px rgba(171,171,171,0.75);
+    -webkit-box-shadow: 7px 3px 28px 4px rgba(171,171,171,0.75);
+    -moz-box-shadow: 7px 3px 28px 4px rgba(171,171,171,0.75);
+    padding: 3rem;
+    width: 100%;
+    color: #161a66;
+    margin-bottom: 2rem;
+    height: 43rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.gmap_canvas {
+    margin-top: .5rem;
+    overflow:hidden;
+    background:none!important;
+    height:457px;
+    width:100%;
+}
+
+iframe {
+    margin-top: .5rem;
+    overflow:hidden;
+    background:none!important;
+    height:457px;
+    width:100%;
+}
